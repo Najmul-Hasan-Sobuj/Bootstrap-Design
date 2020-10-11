@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.card {
+  color: white;
+}
+.card-body {
+  border-radius: 20px 20px 0px 0px;
+}
+.bg-secondary {
+  background-color: #880e4f !important;
+}
+.card-body {
+  color: black;
+}
+.border {
+  border: 2px solid red !important;
+}

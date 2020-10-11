@@ -1,0 +1,51 @@
+.bg-info {
+  background-color: pink !important;
+}
+.navbar-brand {
+  color: darkcyan !important;
+  font-weight: bolder;
+  font-size: xx-large;
+  transition: color 2s;
+  &:hover {
+    color: red !important;
+  }
+}
+.nav-link {
+  font-weight: bold;
+  &:hover {
+    padding-top: 0px;
+  }
+}
+#banner {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  .banner-title {
+    padding: 15%;
+  }
+  h1 {
+    background: rgba($color: #fcd9d6, $alpha: 0.5);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    margin-left: -200px;
+  }
+  .lead {
+    color: white;
+    background: rgba($color: black, $alpha: 0.5);
+    padding: 10px;
+    margin-left: -200px;
+  }
+}
+.card {
+  margin: 5px;
+}
+.card-header {
+  color: white;
+}
+.card-body {
+  background: linear-gradient(90deg, #f857a6 0%, #ff5858 100%);
+  color: #fff;
+}

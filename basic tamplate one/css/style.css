@@ -1,0 +1,65 @@
+.bg-info {
+  background-color: pink !important;
+}
+
+.navbar-brand {
+  color: darkcyan !important;
+  font-weight: bolder;
+  font-size: xx-large;
+  -webkit-transition: color 2s;
+  transition: color 2s;
+}
+
+.navbar-brand:hover {
+  color: red !important;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  padding-top: 0px;
+}
+
+#banner {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+#banner .banner-title {
+  padding: 15%;
+}
+
+#banner h1 {
+  background: rgba(252, 217, 214, 0.5);
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  margin: 0px;
+  margin-left: -200px;
+}
+
+#banner .lead {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-left: -200px;
+}
+
+.card {
+  margin: 5px;
+}
+
+.card-header {
+  color: white;
+}
+
+.card-body {
+  background: -webkit-gradient(linear, left top, right top, from(#f857a6), to(#ff5858));
+  background: linear-gradient(90deg, #f857a6 0%, #ff5858 100%);
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
