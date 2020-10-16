@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+.section {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-blend-mode: multiply;
+  scroll-snap-align: start;
+}
+
+.section:nth-child(1) {
+  background-color: rgba(33, 150, 243, 0.7);
+  background-image: url(../img/pexels-pixabay-531880.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.section:nth-child(2) {
+  background-color: rgba(239, 92, 142, 0.7);
+  background-image: url(../img/pexels-wouter-de-jong-571169.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.section:nth-child(3) {
+  background-color: rgba(229, 211, 53, 0.7);
+  background-image: url(../img/pexels-jeremy-bishop-2397414.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.section:nth-child(4) {
+  background-color: rgba(33, 150, 243, 0.7);
+  background-image: url(../img/pexels-david-bartus-963278.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.content {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  max-width: 700px;
+}
+
+.content h2 {
+  display: inline-block;
+  background-color: antiquewhite;
+  color: black;
+  padding: 10px 20px;
+}
+
+.content p {
+  padding: 10px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
