@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  z-index: 10;
+}
+
+.icon-bar a {
+  text-decoration: none;
+  width: 210px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  font-size: 20px;
+  transform: translateX(-170px);
+  -webkit-transform: translateX(-170px);
+  -ms-transform: translateX(-170px);
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+}
+
+.icon-bar a.facebook {
+  background: #3b5998;
+}
+
+.icon-bar a.twitter {
+  background: #00aced;
+}
+
+.icon-bar a.instagram {
+  background: #e4405f;
+}
+
+.icon-bar a.youtube {
+  background: #cd201f;
+}
+
+.icon-bar a.linkedin {
+  background: #0077b5;
+}
+
+.icon-bar a:hover {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+}
+
+.icon-bar a i {
+  padding-left: 20px;
+  font-size: 30px !important;
+  animation: letszoom 3s linear alternate-reverse infinite;
+}
+
+@-webkit-keyframes letszoom {
+  from {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes letszoom {
+  from {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*# sourceMappingURL=style.css.map */
