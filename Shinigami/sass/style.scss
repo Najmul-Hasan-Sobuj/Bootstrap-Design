@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  background: linear-gradient(90deg, #005c97 0%, #363795 100%);
+}
+.logo {
+  display: grid;
+  place-items: center;
+}
+figure {
+  // filter: drop-shadow(0 0 0.75rem crimson);
+  // filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+  // filter: drop-shadow(30px 10px 4px #4444dd);
+  filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
+    drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
+    drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+}

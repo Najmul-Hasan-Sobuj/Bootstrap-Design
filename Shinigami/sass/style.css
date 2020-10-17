@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(#005c97), to(#363795));
+  background: linear-gradient(90deg, #005c97 0%, #363795 100%);
+}
+
+.logo {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+figure {
+  -webkit-filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3)) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3)) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+}
+/*# sourceMappingURL=style.css.map */
