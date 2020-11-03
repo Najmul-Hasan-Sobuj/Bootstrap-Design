@@ -1,0 +1,41 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.content {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #8bc34a;
+}
+input {
+  height: 50px;
+  width: 320px;
+}
+button {
+  height: 50px;
+  width: 320px;
+  background-color: #4caf50;
+  border: 0px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+p {
+  color: gray;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+.middle {
+  height: 400px;
+  background-color: white;
+  width: 600px;
+  display: grid;
+  place-items: center;
+  -webkit-box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, 0.71);
+  box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, 0.71);
+}
